@@ -1,0 +1,70 @@
+.navbar {
+display:flex;
+background-color: rgb(41, 40, 40);
+}
+.nav-list {
+    display: flex;
+}
+
+.nav-list a{
+display: block;
+padding: 1em;
+text-decoration: no;
+color: white;
+font-family: Helvetica, Arial, sans-serif;
+}
+.nav-list a:hover{
+    background-color: rgb(65, 64, 64);
+    display: block;
+    padding: 1em;
+    text-decoration: no;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    }
+.navbtn{
+    display: none;
+}
+.numberphone {
+    text-decoration: none;
+    display: flex;
+    margin-right: 15px;
+    margin-left: auto;
+}
+.numberphone a{
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+}
+@media (max-width: 900px){
+    .numberphone{
+        display: none;
+    }
+    .navbtn {
+        display: block;
+        border: 0;
+        color: white;
+        background-color: rgb(41, 40, 40);
+        font-size: 2em;
+        padding-inline: 10px;
+        padding-bottom: 3px;
+    }
+    .navbtn:hover{
+        display: block;
+        border: 0;
+        color: white;
+        background-color: rgb(65, 64, 64);
+        font-size: 2em;
+        padding-inline: 10px;
+        padding-bottom: 3px;
+    }
+    .nav-list{
+        display: none;
+    }
+    .navbar:hover .nav-list{
+        display: block;
+        position: absolute;
+        background-color: rgb(41, 40, 40);
+    }
+}

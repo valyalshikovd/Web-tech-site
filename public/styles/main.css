@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header p {
+    font-family: Nunito, Helvetica, Arial, sans-serif;
+    font-size: 6em;
+    text-align: center;
+}
+
+.section-two {
+    display: flex;
+    background-color: rgb(41, 40, 40);
+}
+.section-three {
+    display: block;
+    background-color: rgb(41, 40, 40);
+}
+
+.section-three div{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.section-three div p{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family:  Nunito, Arial, sans-serif;
+    color: white;
+    font-size: 3em;
+    padding-left: 5%;
+}
+.section-three div div img{
+    object-fit: contain;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 10%;
+    padding-right: 30px;
+}
+.section-three-frm{
+    display: flex;
+}
+
+.section-two div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.section-four {
+    display: block;
+    background-color: rgb(41, 40, 40);
+}
+.section-four div{
+    display:flex;
+    
+}
+.section-four div p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family:  Nunito, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 3em;
+    padding-left: 5%;
+}
+
+.section-four div div img{
+    object-fit: contain;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 30px;
+}
+.link{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+}
+.link:hover{
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: rgb(65, 64, 64);
+    padding-bottom: 3%;
+}
+.link a{
+    text-align: center;
+    display: block;
+    font-family:  Nunito, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 1.5em;
+}
+.section-five {
+    display: flex;
+    background-color: white;
+}
+.contacts.div{
+    display: flex;
+}
+.contacts div p{
+    display: flex;
+    font-family:  Nunito, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 1em;
+}
+.inst {
+    
+    display: block;
+    padding-left: 30%;
+    padding-right: 50%;
+}
+.vk {
+    align-self: center;
+    display: flex;
+    
+}
+.vk a{
+    display: block;
+    text-decoration: none;
+    font-family:  Nunito, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 1em;
+}
+.vk:hover{
+    display: flex;
+    background-color: rgb(65, 64, 64);
+}
+.info{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family:  Nunito, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+.email {
+    display: block;
+    font-family:  Nunito, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+}
+.email.a{
+    display: block;
+    text-decoration: none;
+    font-family:  Nunito, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+.inst-info {
+    align-self: center;
+    display: flex;
+    padding-right: 10%;
+}
+.inf-head {
+    display: flex;
+    font-family:  Nunito, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 1.25em;
+}
+
+
+    
+@media (max-width: 1300px) {
+    .section-two div {
+        display: none;
+    }
+    .section-four div img{
+        display: none;
+    }
+    .section-three div img{
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    .header p {
+        font-family: Cursive, Helvetica, Arial, sans-serif;
+        font-size: 2em;
+        padding-top: 8%;
+        padding-left: 8%;
+        padding-bottom: 8%;
+        text-align: center;
+
+}
+}
